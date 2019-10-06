@@ -1,0 +1,31 @@
+body{
+    height: 100vh;
+    background: url(/image/section-composition4.jpg) no-repeat #2e2e2e;
+    background-size: 55% 100%;
+    background-position: left;
+}
+main div{
+    position: absolute;
+    top: 10%;
+    left: 60%;
+    text-align: center;
+}
+main  div h4, p, main div a{
+    margin-left: 20px;
+    padding: 20px;
+}
+main  div h4{
+    font-size: 30px;
+}
+main div p{
+    color: #666;
+}
+main div a{
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 10px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+}

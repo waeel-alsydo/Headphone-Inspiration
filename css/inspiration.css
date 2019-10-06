@@ -1,0 +1,74 @@
+main .iframe-contenir{
+    height: 100vh;
+    position: relative;
+}
+main .iframe-contenir iframe{
+    width: 61%;
+    height: 60vh;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+.music{
+    margin-left: 21%;
+}
+.music p:first-of-type{
+    font-size: 20px;
+    padding: 10px 0;
+}
+.music p:nth-child(2){
+    font-size: 30px;
+    padding: 0 0 60px 0;
+}
+.music p:nth-child(4){
+    color: #666;
+}
+.music ul li{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.music ul li a{
+    text-decoration: none;
+    color: #666;
+    border: 1px solid #fff;
+    padding: 5px;
+}
+section{
+    height: 100vh;
+    margin: 10% auto;
+}
+section div{
+    width: 60%;
+    margin: 0 auto;
+}
+section div:first-of-type{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+section div:last-of-type{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+section div img{
+    width: 50%;
+}
+section div p {
+    display: flex;
+    flex-direction: column;
+    line-height: 29px;
+    padding-left: 20px;
+    color: #666;
+}
+section div p span{
+    font-size: 20px;
+    color: #ebccc2;
+}
+section div p strong{
+    font-size: 35px;
+    line-height: initial;
+    margin: 10px 0 40px;
+    color: #ebccc2;
+}
+
